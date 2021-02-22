@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-22T16:30:33.251Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="c4ajqREbsPBAdOdzhjCL" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-22T16:42:06.959Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="-o9nsFQuEqo4q2pBGv0s" version="14.4.2" type="github">
   <diagram id="yq8C_2NCv54MJ89x-1Ad" name="Page-1">
     <mxGraphModel dx="1300" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -17,16 +17,16 @@
           <mxGeometry y="168" width="220" height="152" as="geometry" />
         </mxCell>
         <mxCell id="0PVJaK8PSXOcp4rX0p8X-5" value="Chalenge" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="570" y="90" width="220" height="214" as="geometry" />
+          <mxGeometry x="570" y="90" width="220" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="0PVJaK8PSXOcp4rX0p8X-6" value="- question: String&#xa;- possibleAnswers: Sring[]&#xa;- solutionIndex: int&#xa;- duration: Time&#xa;- image: string&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0PVJaK8PSXOcp4rX0p8X-5">
+        <mxCell id="0PVJaK8PSXOcp4rX0p8X-6" value="- question: String&#xa;- possibleAnswers: String[]&#xa;- solutionIndex: int&#xa;- duration: int&#xa;- image: String&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0PVJaK8PSXOcp4rX0p8X-5">
           <mxGeometry y="26" width="220" height="154" as="geometry" />
         </mxCell>
         <mxCell id="0PVJaK8PSXOcp4rX0p8X-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="0PVJaK8PSXOcp4rX0p8X-5">
           <mxGeometry y="180" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="0PVJaK8PSXOcp4rX0p8X-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0PVJaK8PSXOcp4rX0p8X-5">
-          <mxGeometry y="188" width="220" height="26" as="geometry" />
+        <mxCell id="0PVJaK8PSXOcp4rX0p8X-8" value="+ isCorrectAnswer(int): boolean&#xa;+ getQuestion(void): String&#xa;+ getPossibleAnswers(void): String[]&#xa;+ getDuration(): int&#xa;+ getImage(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0PVJaK8PSXOcp4rX0p8X-5">
+          <mxGeometry y="188" width="220" height="152" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
