@@ -2,9 +2,8 @@ package com.example.mclprojetfinal;
 
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.Calendar;
 import java.util.Timer;
-import java.text.SimpleDateFormat;
+import java.util.TimerTask;
 
 public class Event {
 

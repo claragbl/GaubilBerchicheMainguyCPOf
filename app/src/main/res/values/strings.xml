@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MCL.projet.final</string>
+    <string name="eventListMessage">liste des évenements</string>
+    <string name="addEventButtonMessage">ajouter un évenement</string>
 </resources>
