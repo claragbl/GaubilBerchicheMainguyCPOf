@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/enregist"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".NewEventActivity">
@@ -15,4 +16,17 @@
         android:text="Name"
         tools:layout_editor_absoluteX="70dp"
         tools:layout_editor_absoluteY="70dp" />
+
+    <Button
+        android:id="@+id/createEventButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/createEventButtonLabel"
+        android:onClick="onCreateEvent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

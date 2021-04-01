@@ -41,8 +41,7 @@ public class Event {
         drinkCount = drinkCount + 1;
     }
 
-    //méthode qui envoie une notification de la soirée une fois que l'heure définie auparavant est
-    //atteinte. Quand departure time - heure courante == 0, il faut partir
+    //méthode qui est appelée dans Event et qui s'exécute quand le timer est arrivé à departure time
     private void notifyNeedLeave () {
         //appeler la popup/la notification
     }
